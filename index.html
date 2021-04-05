@@ -3,23 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css">
+      crossorigin="anonymous"/>
+      <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
+
+
+
     <!-- nav -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img src="images/logo.png" alt=""
-        /></a>
+      <div class="container">
+        <a class="navbar-brand logo" href="#"
+          ><img src="/images/Logo@4x.png" alt=""></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -31,12 +34,13 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Shoes</a>
-            <a class="nav-link" href="#">Bagpack</a>
-            <a class="nav-link" href="#">Subscribe</a>
+
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+
+            <a class="nav-link text-white" href="#">About Us</a>
+            <a class="nav-link" href="#"></a>
+            <a class="nav-link" href="#"></a>
           </div>
         </div>
       </div>
@@ -47,20 +51,20 @@
   <!-- section  -->
   <section>
     <div class="container overflow-hidden mt-5 categories">
-      <div class="row gx-5 mt-5">
-        <div class="col ">
-         <div class="p-3 blah  bg-danger d-flex justify-content-around align-items-center">
-          <h3 class="text-white">Death in 24 hrs: 700</h3>
-         </div>
+      <div class="row gx-3 mt-5">
+        <div class="col">
+          <div class="p-2 blah  redColor d-flex justify-content-around align-items-center">
+            <h5 class=" my-2 ">Death in 24hrs: 7000</h5>
+          </div>
         </div>
         <div class="col"> 
-          <div class="p-3 blah  yellowColor d-flex justify-content-around align-items-center">
-            <h3 class="text-white">Infected in 24hrs: 7000</h3>
+          <div class="p-2 blah  yellowColor d-flex justify-content-around align-items-center">
+            <h5 class=" my-2">Infected in 24hrs: 7000</h5>
           </div>
          </div>
          <div class="col">
-          <div class="p-3 blah  bg-success d-flex justify-content-around align-items-center">
-            <h3 class="text-white">Recovered in 24hrs: 2000</h3>
+          <div class="p-2 blah  bg-success d-flex justify-content-around align-items-center">
+            <h5 class=" my-2 text-white">Recovered in 24hrs: 2000</h5>
           </div>
          </div>
         
@@ -73,43 +77,67 @@
   <!-- dropdown  -->
 
   <section>
-   <div class="container m-5 dropDown ">
-<div class="btn-group p-5">
-  <button class="btn btn-secondary  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-  aaaaaaaaaaaaaaaaaaa
+   <div class="container my-3 dropDown ">
+<div class="btn-group p-2">
+  <button class="btn button-color dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+ Covid Related Facebook Groups
   </button>
   <ul class="dropdown-menu">
-   <li>a link</li>
-   <li>a link</li>
-   <li>a link</li>
-   <li>a link</li>
-   <li>a link</li>
+   <li><a class="dropdown-item" target="_blank" href="https://www.facebook.com/groups/PlasmaBankofBangladesh/  ">Plasma Bank of Bangladesh</a></li>
+<li><a class="dropdown-item" target="_blank" href="https://www.facebook.com/groups/505408746806858/">COVID-19 LIVE UPDATE</a></li>
   </ul>
 </div>
-<div class="btn-group p-5">
-  <button class="btn btn-secondary  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-   buttonaaaaaaaaaaaaaaaa
+
+
+<div class="btn-group p-2">
+  <button class="btn button-color  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Blood Related Facebook Groups
   </button>
   <ul class="dropdown-menu">
-   <li>a link</li>
-   <li>a link</li>
-   <li>a link</li>
-   <li>a link</li>
-   <li>a link</li>
+    <li><a class="dropdown-item" target="_blank" href="https://www.facebook.com/groups/255314818868314/">Plasma Bank Of Covid Survivors</a></li>
+    <li><a class="dropdown-item" target="_blank" href="https://www.facebook.com/groups/BloodFighters/">Blood Fighters</a></li>
+    <li><a class="dropdown-item" target="_blank" href="https://www.facebook.com/groups/blood.donation.national.family/">Blood Donation National Family</a></li>
+    <li><a class="dropdown-item" target="_blank" href="https://www.facebook.com/groups/ctg.blood.bank/">Chittagong Blood Bank</a></li>
   </ul>
 </div>
-<div class="btn-group p-5">
-  <button class="btn btn-secondary  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-   buttonssssssssssssssssssssss
+
+
+<div class="btn-group p-2">
+  <button class="btn button-color  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  Blood Banks
   </button>
   <ul class="dropdown-menu">
-   <li>a link</li>
-   <li>a link</li>
-   <li>a link</li>
-   <li>a link</li>
-   <li>a link</li>
+    <li><a class="dropdown-item" target="_blank" href="https://bdrcs.org/donate-blood/
+">Bangladesh Red Crescent Society</a></li>
+
+    <li><a class="dropdown-item" target="_blank" href="https://dmp.gov.bd/police-blood-bank/
+">DMP Blood Bank</a></li>
+
+    <li><a class="dropdown-item" target="_blank" href="http://blood.quantummethod.org.bd/en
+">Quantum Foundation Blood Bank</a></li>
+
+    <li><a class="dropdown-item" target="_blank" href="https://www.ibnsinatrust.com/Blood_Bank.php">Ibn Sina Hospital Blood Bank</a></li>
+
+    <li><a class="dropdown-item" target="_blank" href="https://www.evercarebd.com/blood-bank/"> Evercare Blood Bank</a></li>
+
+    <li><a class="dropdown-item" target="_blank" href="https://www.bdspecializedhospital.com/department/bshl-blood-bank">Bangladesh Specialized Hospital Ltd.</a></li>
+
+    <li><a class="dropdown-item" target="_blank" href="https://www.uhlbd.com/services/blood-bank">United Hospital Limited.</a></li>
   </ul>
 </div>
+
+
+<div class="btn-group p-2">
+  <button class="btn button-color" type="button" aria-expanded="false">
+  <a class="traffic" target="_blank" href="https://www.facebook.com/groups/TrafficAlert.BD/
+  ">Traffic Update (Dhaka)</a>
+  </button>
+  <ul class="dropdown-menu">
+  </ul>
+</div>
+
+
+
 </div>
   </section>
 
@@ -120,35 +148,52 @@
 
     <section>
       <div class="container mt-5 px-2">
-        <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="row row-cols-2 row-cols-md-4 g-4">
           <div class="col">
             <div class="card shadow" style="width: 18rem">
-              <img
-                src="images/transport.png"
-                class="card-img-top"
-              
-              />
+              <img src="images/Cross/bus_c.png"class="card-img-top pt-2"/>
               <div class="card-body">
-                
-                <h5 class="card-title">Public Transport</h5>
-                <p class="card-text">
-                
-                </p>
+                <h5 class="fonts card-title text-center">Public Transport</h5>
+                <p class="card-text"> <small>this is text</small> 
               </div>
             </div>
           </div>
+
+          
           <div class="col">
             <div class="card shadow" style="width: 18rem">
               <img
-                src="images/market.png"
-                class="card-img-top"
+                src="images/Limited/bazar_l.png"
+                class="card-img-top pt-2"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Bazar/Grocery</h5>
-                <p class="card-text">
-                  This card has supporting text below as a natural lead-in to
+                <h5 class=" fonts  card-title text-center">Bazar/ Grocery</h5>
+                <p class="card-text text-center">
+                  <small>
+                    This card has supporting text below as a natural lead-in to
                   additional content.
+                  </small>
+                  
+                </p>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow" style="width: 18rem">
+              <img
+                src="images/Cross/hangout_c.png"
+                class="card-img-top pt-2"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="fonts card-title text-center">Public Hangout</h5>
+                <p class="card-text text-center">
+                  <small> This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.</small>
+                 
                 </p>
               </div>
             </div>
@@ -156,33 +201,14 @@
           <div class="col">
             <div class="card shadow" style="width: 18rem">
               <img
-                src="images/Public Hangout.png"
-                class="card-img-top"
+                src="images/Limited/bank_l.png"
+                class="card-img-top pt-2"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Public Hangout</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow" style="width: 18rem">
-              <img
-                src="images/bank.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Bank</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                <h5 class="fonts card-title text-center">Bank</h5>
+                <p class="card-text text-center">
+                  <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, facilis.</small>
                 </p>
               </div>
             </div>
@@ -191,21 +217,19 @@
 
 
 
-        <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="row row-cols-2 row-cols-md-4 g-4">
           <div class="col">
             <div class="card shadow" style="width: 18rem">
               <img
-                src="images/medicine.png"
-                class="card-img-top"
+                src="images/Tick/medicine_g.png"
+                class="card-img-top pt-2"
                 style=""
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Pharmacy</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                <h5 class="fonts card-title text-center">Pharmacy</h5>
+                <p class="card-text text-center">
+                  <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, hic!</small>
                 </p>
               </div>
             </div>
@@ -213,15 +237,14 @@
           <div class="col">
             <div class="card shadow" style="width: 18rem">
               <img
-                src="images/shopping.png"
-                class="card-img-top"
+                src="images/Cross/shopping_c.png"
+                class="card-img-top pt-2"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Shopping Mall/Market</h5>
-                <p class="card-text">
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
+                <h5 class="fonts card-title text-center">Shopping Mall/ Market</h5>
+                <p class="card-text text-center">
+                  <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, officiis.</small>
                 </p>
               </div>
             </div>
@@ -229,16 +252,21 @@
           <div class="col">
             <div class="card shadow" style="width: 18rem">
               <img
-                src="images/Restaurant.png"
-                class="card-img-top"
+                src="images/Limited/hotel_l.png"
+                class="card-img-top pt-2"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Restaurant</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
+                <h5 class="fonts card-title text-center">Restaurant</h5>
+                <p class="card-text text-center">
+                  <small>
+                    Dine-in not allowed.
+                    <br>
+                    ✔ Take-out allowed.
+                    <br>
+                    Online deliveries allowed.
+
+                  </small>
                 </p>
               </div>
             </div>
@@ -246,16 +274,14 @@
           <div class="col">
             <div class="card shadow" style="width: 18rem">
               <img
-                src="images/Goverment office.png"
-                class="card-img-top"
+                src="images/Limited/govt_l.png"
+                class="card-img-top pt-2"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Government Services</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                <h5 class="fonts card-title text-center">Government Services</h5>
+                <p class="card-text text-center">
+                 <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, a!</small>
                 </p>
               </div>
             </div>
