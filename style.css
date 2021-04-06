@@ -43,3 +43,8 @@ body{
 .fonts{
   font-weight: bold;
 }
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+}
