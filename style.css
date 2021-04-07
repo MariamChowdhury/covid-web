@@ -50,11 +50,11 @@ body{
 }
 li{
   list-style: none;
-  font-size: smaller;
+
 }
 #footer{
-  display: table;
-    text-align: center;
-    margin-left: auto;
+
+    text-align: center; 
+     margin-left: auto;
     margin-right: auto;
 }
