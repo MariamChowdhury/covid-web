@@ -18,7 +18,7 @@
   <!-- nav -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand logo" href="#"><img src="/images/Logo@4x.png" alt=""></a>
+      <a class="navbar-brand logo" href="#"><img src="/images/Logo@4x.png" alt="logoName"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -129,11 +129,12 @@
           <div class="card card-body  h-100 shadow " style="width: 18rem">
             <img src="images/Cross/bus_c.png" class="card-img-top pt-2" />
             <div class="card-body">
-              <h5 class="fonts card-title text-center">Public Transport</h5>
-              <ul>
-                <li><small>✘ Public Transport Not Allowed</small></li>
-              <li><small>✔ Private Transport Allowed</small></li>
-              <li><small>✔ Organizational Transport Allowed</small></li>
+              <h5 class="fonts card-title text-center ">Public Transport</h5>
+              <ul class="ul">
+                <li><small>✘ Not allowed</small></li>
+              <li><small>✘ Ride sharing not allowed</small></li>
+              <li><small>✔ Private transport allowed</small></li>
+              <li><small>✔ Office vehicles allowed</small></li>
               </ul>
             </div>
           </div>
@@ -142,13 +143,12 @@
           <div class="card card-body  h-100 shadow " style="width: 18rem">
             <img src="images/Limited/bazar_l.png" class="card-img-top pt-2" alt="..." />
             <div class="card-body">
-              <h5 class=" fonts  card-title text-center">Bazar/ Grocery</h5>
+              <h5 class=" fonts card-title text-center">Bazar/ Grocery</h5>
               <ul>
                 <li><small>✔ Open bazars allowed</small></li>
               <li><small>✔ Local shops allowed</small></li>
-              <li><small><span style='font-size:15px;'>&#10033;</span> Time Frame: 8am to 4pm</small></li>
-              </ul>
-              
+              <li><small><span style='font-size:15px;'>&#10033;</span> Time Frame: 8am-4pm</small></li>
+              </ul>             
             </div>
           </div>
         </div>
@@ -158,9 +158,11 @@
             <div class="card-body">
               <h5 class="fonts card-title text-center">Public Hangout</h5>
               <ul>
-                <li><small>✘ Public Gathering Not Allowed</small></li>
-              <li><small><span style='font-size:15px;'>&#10033;</span> Recommended Distance: 6ft</small></li>
-              <li><small>✔ Emergency Movement Allowed from 6pm-6am</small></li>
+                <li><small>✘ Not allowed</small></li>
+              <li><small><span style='font-size:15px;'>&#10033;</span> Recommended <span class="line-gap">
+                Distance: 6ft
+              </span></small></li>
+              <li><small>✔ Only emergency <span class="line-gap">movement allowed</span> <span class="line-gap">after 10pm</span> </small></li>
               </ul>             
             </div>
           </div>
@@ -173,9 +175,9 @@
               <ul>
                 <li><small><span style='font-size:15px;'>&#10033;</span> Services are limited</small></li>
               <li><small><span style='font-size:15px;'>&#10033;</span> Contact Nearest Branch</small></li>
-              <li><small><span style='font-size:15px;'>&#10033;</span> Follow guidelines by Bangladesh bank</small></li>
-              </ul>
-              
+              <li><small><span style='font-size:15px;'>&#10033;</span> Follow government 
+               <span class="line-gap"> guidelines</span></small></li>
+              </ul>             
             </div>
           </div>
         </div>
@@ -183,15 +185,14 @@
       <div class="row  row-cols-md-2 row-cols-lg-4 my-4 ">
         <div class="col mb-3">
           <div class="card card-body h-100 shadow  " style="width: 18rem">
-            <img src="images/Tick/medicine_g.png" class="card-img-top pt-2" style="" alt="..." />
+            <img src="images/Tick/medicine_g.png" class="card-img-top pt-2" alt="..." />
             <div class="card-body">
               <h5 class="fonts card-title text-center">Pharmacy</h5>
               <ul>
-                <li><small>✔ No restriction at dispensaries</small></li>
+                <li><small>✔ No restriction at <span class="line-gap"> dispensaries</span></small></li>
               <li><small> ✔ Allowed 24x7</small></li>
               <li><small> ✔ Home Deliveries allowed</small></li>
-              </ul>
-              
+              </ul>             
             </div>
           </div>
         </div>
@@ -201,7 +202,7 @@
             <div class="card-body">
               <h5 class="fonts card-title text-center">Shopping Mall/ Market</h5>
               <ul>
-                <li><small>✘ Malls and markets are not allowed</small></li>
+                <li><small>✘ Not allowed</small></li>
               <li><small>✔ Online shopping allowed</small></li>
               </ul>
             </div>
@@ -213,9 +214,9 @@
             <div class="card-body">
               <h5 class="fonts card-title text-center">Restaurant</h5>
               <ul>
-                <li><small>✘ Dine-in not allowed.</small></li>
-                <li><small>✔ Take-out allowed.</small></li>
-                <li><small>✔ Online deliveries allowed.</small></li>
+                <li><small>✘ Dine-in not allowed</small></li>
+                <li><small>✔ Take-out allowed</small></li>
+                <li><small>✔ Online deliveries allowed</small></li>
               </ul>
             </div>
           </div>
@@ -233,12 +234,12 @@
                 </li>
                 <li>
                   <small>
-                    <span style='font-size:15px;'>&#10033;</span> Contact prior to visiting
+                    <span style='font-size:15px;'>&#10033;</span> Contact prior to visit
                   </small>
                 </li>
                 <li>
                   <small>
-                    <span style='font-size:15px;'>&#10033;</span> In emergency dial 999
+                    <span style='font-size:15px;'>&#10033;</span> In emergency,dial 999
                   </small>
                 </li>
               </ul>
@@ -248,18 +249,27 @@
       </div>
     </div>
   </section>
-  <footer class="container">
-    <div id="footer" class="d-flex justify-content-start">
-      <h5 class="mt-4">Powered by:</h5>
-    <img class="mt-1" src="https://appservice.azureedge.net/images/app-service/v3/microsoft_azure_logo.svg" style="height: 70px;" alt="">
+  <footer >
+    <div id="footer" class="d-flex justify-content-center">
+      <p class="mt-4">Powered by:</p>
+    <img class="mt-2" src="https://appservice.azureedge.net/images/app-service/v3/microsoft_azure_logo.svg" style="height: 60px;" alt="">
     </div>
-    <div class="d-flex justify-content-start mb-4">
-      <h5>Initiative by:&nbsp;&nbsp;&nbsp; 
-      </h5>
-      <img src="https://lh3.googleusercontent.com/qweElQJPXW6f7yK17Bun6E68T969Y7MrJghX8mI1vt8vwZ-Lkq3vsTGjz6M7jFjrVQqGXlR9xU7pTzIGXHKmBXw=w16383" style="height: 30px;" alt="">
-      <h5>&nbsp;Microsoft Learn Student Ambassadors BUP</h5>   
+    <div id="footer" class="d-flex justify-content-center mb-4">
+      <p class="last-footer">Initiative by:
+      </p>
+      <div class="d-flex">
+        <img class="" src="https://lh3.googleusercontent.com/qweElQJPXW6f7yK17Bun6E68T969Y7MrJghX8mI1vt8vwZ-Lkq3vsTGjz6M7jFjrVQqGXlR9xU7pTzIGXHKmBXw=w16383" style="height: 25px;" alt="">
+        <p class="mlsa-text">Microsoft Learn Student Ambassadors BUP</p> 
       </div>
-    
+      </div>
+      <div class="d-flex container">
+        <p>References:</p>
+        <ul>
+          <li> <a target="_blank" href="https://corona.gov.bd/">Reference 01</a> </li>
+          <li> <a target="_blank" href="https://corona.gov.bd/storage/press-releases/March2021/1zoK4InT5iU6kPtcaVlZ.pdf">Reference 02</a> </li>
+        </ul>
+      </div>
+     
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
     integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
