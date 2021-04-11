@@ -181,6 +181,6 @@ li {
     display: grid;
   }
   @-ms-viewport{
-    width: device-width;
+    width:320px;
   }
 }
