@@ -159,6 +159,9 @@ li {
   .traffic-button {
     display: grid;
   }
+  .card-width{
+    flex: none;
+  }
 }
 
 /* tab */
@@ -169,6 +172,9 @@ li {
   .covid-button {
     display: grid;
   }
+  .card-width{
+    flex: none;
+  }
 }
 /* mobile */
 @media (max-width: 575.98px) {
@@ -177,6 +183,9 @@ li {
   .traffic-button,
   .covid-button {
     display: grid;
+  }
+  .card-width{
+    flex: none;
   }
   @-ms-viewport{
     width:320px;
