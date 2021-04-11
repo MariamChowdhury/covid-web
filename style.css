@@ -93,7 +93,7 @@ li {
 .line-gap {
   padding-left: 14px;
 }
-.top-card .row{
+.top-card .row {
   --bs-gutter-x: 0.57rem;
 }
 
@@ -131,37 +131,51 @@ li {
   padding: 0;
   text-align: center;
 }
-
-
-@media (min-width: 992px) {
-  .blood-button,.blood-bank-button,.traffic-button{
+/* large laptops and desktops */
+@media (min-width: 1400px) {
+  .blood-button,
+  .blood-bank-button,
+  .traffic-button {
     margin-left: 2.2rem;
   }
-  .card-size{
-    width: 52rem;
+}
+/* small-laptops */
+@media (max-width: 1399.98px) and (min-width: 991.98px) {
+  .covid-button,
+  .blood-button,
+  .blood-bank-button,
+  .traffic-button {
+    display: grid;
+  }
+  .card-column{
+    width: 50%;
   }
 }
+/* tab-landscape */
 @media (max-width: 990px) and (min-width: 771px) {
-  .covid-button{
-   
-    margin-left: 8rem;
-  }
-  .blood-button, .blood-bank-button ,.traffic-button{
-    margin-left: 8rem;
+  .covid-button,
+  .blood-button,
+  .blood-bank-button,
+  .traffic-button {
+    display: grid;
   }
 }
+
+/* tab */
 @media (max-width: 770px) {
-  .blood-button,.blood-bank-button,.traffic-button,.covid-button{
-    margin-left: 4rem
+  .blood-button,
+  .blood-bank-button,
+  .traffic-button,
+  .covid-button {
+    display: grid;
   }
-  .update,.ref{
-    margin-left:20px;
-    margin-right:20px
+}
+/* mobile */
+@media (max-width: 575.98px) {
+  .blood-button,
+  .blood-bank-button,
+  .traffic-button,
+  .covid-button {
+    display: grid;
   }
-  .ref a{
-    display: contents;
-  }
-  .sb{
-    display: none;
-  }
- }
+}
