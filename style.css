@@ -180,4 +180,7 @@ li {
   .covid-button {
     display: grid;
   }
+  @-ms-viewport{
+    width: device-width;
+  }
 }
