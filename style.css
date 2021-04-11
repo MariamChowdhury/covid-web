@@ -95,9 +95,7 @@ li {
 .line-gap {
   padding-left: 14px;
 }
-.top-card .row {
-  --bs-gutter-x: 0.57rem;
-}
+
 
 /*KAISER'S PART*/
 .card-round-border {
