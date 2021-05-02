@@ -1,1 +1,1 @@
-## https://mariamchowdhury.github.io/covid-web/
+## https://www.covinfobd.codes/
